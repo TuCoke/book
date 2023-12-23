@@ -1,0 +1,29 @@
+{
+    "title": "骑士指南",
+    "description": "要想成为强者,决不能绕过挡道的荆棘,也不能回避风雨的冲刷",
+    "author": "公爵",
+    "output.name": "site",
+    "language": "zh-hans",
+	"plugins": 
+	[
+		"toggle-chapters",
+		"hide-element",
+		"tbfed-pagefooter",
+		"-lunr","-search","search-pro",
+		"insert-logo"
+	],
+	"pluginsConfig": {
+		"hide-element": {
+			"elements": [".gitbook-link"]
+		},
+		"tbfed-pagefooter": {
+				"copyright": "Copyright &copy 公爵 2022",
+				"modify_label": "该文章修订时间：",
+				"modify_format": "YYYY-MM-DD"
+		},
+		"insert-logo": {
+				"url": "https://cos.gjcloak.xyz/2022/04/28/6269f3340b765.png",
+				"style": "background: none"
+			}
+	  }
+}
